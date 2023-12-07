@@ -1,0 +1,121 @@
+.title {
+	color: darkgreen;
+	font-size: 200 px;
+	margin-top: 0;
+	line-height: 25px;
+	font-family: big caslon; Arial;
+	text-align: center;
+	letter-spacing: 2px;
+	
+}
+
+.byline {
+	font-size: 20px;
+	font-family: big caslon; Arial;
+	text-align:center;
+	margin-bottom: 50px;
+	
+
+}
+
+.sauce {
+	text-align: center;
+	
+}
+
+.bylinetwo {
+	font-style: italic;
+	font-size: 10px;
+	text-align: center;
+	font-family: big caslon; Arial
+}
+
+body {
+	background-color: #FFFAF0 ;
+}
+
+.textone {
+	padding: 10px 30px;
+	font-family: big caslon; Arial
+	font-size: 18px;
+	text-align: center;
+	line-height: 25px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.texttwo {
+	padding: 10px 30px;
+	font-family: big caslon; Arial
+	font-size: 18px;
+	text-align: center;
+	line-height:25px;
+	margin-right: 50px;
+	margin-left: 50px
+
+}
+.textthree {
+	padding: 10px 30px;
+	font-family: big caslon; Arial
+	font-size: 18px;
+	text-align: left;
+	line-height: 25px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.visualone {
+	border-left-color: darkgreen;
+	border-left-style: solid;
+	border-left-width: 3px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #FFFAF0;
+	margin-right: 80px;
+	margin-left: 80px
+
+
+}
+
+.visualtwo {
+	border-left-color: darkgreen;
+	border-left-style: solid;
+	border-left-width: 3px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #FFFAF0;
+	margin-right: 80px;
+	margin-left: 80px
+
+}
+
+
+@media (max-width 700px) {
+	.textone {
+		grid-template-columns: 1 fr;
+	}
+}
+
+@media (max-width 700px) {
+	.texttwo {
+		grid-template-columns: 1 fr;
+	}
+}
+
+@media (max-width 700px) {
+	.visualone {
+		grid-template-columns: 1 fr;
+	}
+}
+
+@media (max-width 700px) {
+	.visualtwo {
+		grid-template-columns: 1 fr;
+	}
+}
+
+ .whole {
+ 	background-color: #FFFAF0
+ }
